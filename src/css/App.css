@@ -1,0 +1,163 @@
+.App {
+  display: grid;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+.nav_main{
+  display: flex;
+  color: #ECE7E2;
+  height: 80px;
+  justify-content: space-between;
+}
+.nav_left{
+  display: flex;
+  align-items:flex-end;
+  margin-left: 170px;
+  margin-top: 125px;
+}
+.nav_left img{
+  width: 150px;
+  height: 160px;
+
+}
+/* .nav_right{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 30px;
+  align-items: center;
+} */
+/* .nav_right a{
+  margin-left: 30px;
+  text-decoration: none;
+  color: #ECE7E2;
+  font-size: 20px;
+} */
+.formval{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formbox1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  width: 450px;
+  height: 640px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.852);
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px); */
+  color: rgb(255, 255, 255);
+}
+
+.formbox2{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin-top: 40px;
+  /* text-align: start; */
+  width: 330px;
+  margin-left: 20px;
+  
+  /* margin-left: 0px; */
+}
+form{
+  margin-top: 28px;
+  
+}
+.formbox2 h1{
+  /* text-align: left; */
+  /* align-self: flex-start; */
+  margin-top: 10px;
+  font-size: 33px;
+  font-weight: 700;
+}
+.formbox2 input{
+  width: 290px;
+  height: 53px;
+  color: #ECE7E2;
+  border: 1px solid rgba(213, 213, 213, 0.452);
+  background-color: rgba(24, 23, 23, 0.53);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.formbox2 input::placeholder {
+  color: #ffffffc5;
+  opacity: 1; 
+}
+
+.formbox2 input:focus{
+  color: #ECE7E2;
+  background-color: rgba(24, 23, 23, 0.53);
+}
+
+.formbox2 button{
+  width: 310px;
+  height: 44px;
+  background-color: #E60A14;
+  border: none;
+  font-size: 17px;
+}
+.formbox2 button:hover{
+  background-color: #e60a15a8;
+}
+
+.formbox3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.formbox3 h6{
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.571);
+}
+
+.formbox3 button{
+  width: 310px;
+  height: 40px;
+  background-color: #ece7e242;
+  border: none;
+}
+
+.formbox3 button:hover{
+  background-color: #9f9e9d42;
+}
+
+.formbox3 span{
+  margin-top: 18px;
+}
+
+.formbox3 a{
+  color: white;
+  text-decoration: none;
+}
+.formbox3 a:hover{
+  text-decoration: underline ;
+  color: rgba(255, 255, 255, 0.605);
+}
+.formlast span{
+  text-align: start;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.584);
+}
+
+.formlast .linkblue{
+  color: rgb(65, 65, 241);
+}
+.formlast .linkblue:hover{
+  color: rgba(65, 65, 241, 0.751);
+}
+
+.errorspan{
+  color: #E60A14;
+  
+}
